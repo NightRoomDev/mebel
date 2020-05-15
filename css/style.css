@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+html, body {
+	height: 100%;
+}
+
+.orange-bg {
+	background: #ff8a00;
+}
+
+.orange-color {
+	color: #ff8a00;
+}
+
+.fullheight-sidebar {
+	padding-top: 100px;
+	transition: all .4s;
+}
+
+.main-panel-section {
+	transition: all .4s;
+}
+
+.social {
+	display: flex;
+	justify-content: center;
+}
+
+.social li {
+	list-style-type: none;
+	margin: 0 10px;
+}
+
+.social i {
+	font-size: 18px !important;
+}
+
+.vertical-middle {
+	vertical-align: middle !important;
+}
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+	bottom: .5em;
+}
+
+.table-link:hover {
+	color: blue !important;
+}
+
+.minimized {
+	width: 80px;
+}
+
+.defaultFontSize {
+	font-size: 16px !important;
+}
+
+.Nunito-font {
+	font-family: 'Nunito', sans-serif;
+}
+
+table tr td, table tr th {
+	font-size: 16px;
+}
+
+.catalog-hover a {
+	transition: all 0.3s;
+}
+
+.main-catalog-item {
+	transition: all .2s;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+}
+
+.main-catalog-item:hover {
+	background: #bed3db !important;
+	/* border-top: 1px solid silver;
+	border-bottom: 1px solid silver; */
+}
+
+.catalog-hover a:hover {
+	padding-left: 30px !important;
+}
+
+.link-contacts:hover {
+	text-decoration: underline !important;
+}
+
+.discount-pos {
+	top: 0;
+	right: 0;
+	border-radius: 0 0 0 10px;
+	user-select: none;
+}
+
+.color-dimensions {
+	color: #747373;
+}
+
+.accordion-container{
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.set{
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+.set > a {
+	display: block;
+	padding: 17px 15px;
+	text-decoration: none;
+	color: #555;
+	font-weight: 600;
+	-webkit-transition:all 0.2s linear;
+	-moz-transition:all 0.2s linear;
+	transition:all 0.2s linear;
+}
+.set > a i{
+	position:relative;
+	float: right;
+	margin-top:4px;
+	color: #666;
+}
+.set > a.active{
+	background-color:#ff8a00;
+	color: #fff;
+}
+.set > a.active i{
+	color: #fff;
+}
+.content{
+	position:relative;
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+	display:none;
+}
+.content p{
+	padding: 10px 15px;
+	margin: 0;
+	color: #333;
+}
+
+.h-style {
+	display: block;
+	padding: 17px 15px;
+	text-decoration: none;
+	color: #555;
+	font-weight: 600;
+}
+
+.size-arrow-filter {
+	font-size: 18px
+}
+
+.font-size-filter {
+	font-size: 14px !important;
+}
+
+.ui-slider-handle {
+	background: #007bff !important;
+	border: none !important;
+	width: 15px !important;
+	height: 15px !important;
+	margin-top: 1px;
+}
+
+.ui-slider {
+	background: lightgray !important;
+	height: 8px;
+	border-radius: 3px;
+}
+
+.wrap-count_product {
+	background: #ff8a00;
+	color: #fff;
+}
+
+.border-img {
+	border: 8px solid #fff;
+}
+
+.border-bottom-dotted {
+	border-bottom: 1px dotted silver;
+}
+
+.slider-nav .item-slider > img {
+	padding: 5px;
+	border: 1px solid silver;
+}
+
+.btn-slick {
+	position: absolute;
+	widows: 50px; 
+	height: 25px;
+	padding: 8px;
+	border-radius: 50%;
+	background: #fff;
+	border: 1px solid #ff8a00;
+	z-index: 9999;
+	top: 30%;
+	transition: all .2s;
+	outline: none !important;
+}
+
+.btn-slick:hover {
+	background: #ff8a00;
+	color: #fff;
+}
+
+.btn-slick > i {
+	top: 4px;
+	right: 8px;
+	position: absolute;
+}
+
+.arrow-next {
+	right: 15px !important;
+}
+
+.is-star {
+	color: #ffc700;
+	cursor: pointer;
+}
+
+.size-star {
+	font-size: 12px;
+}
+
+.feedback {
+	font-size: 14px;
+}
+
+.cart {
+	height: 42px;
+}
+
+.cart__total_count {
+	top: -15px;
+	right: -15px;
+	padding: 5px;
+	width: 30px;
+	height: 30px;
+	border: 2px solid #fff;
+	color: #fff;
+}
+
+.cart__total_count > span {
+	position: absolute;
+	top: 10%;
+	left: 35%;
+}
+
+.go-top {
+	width: 40px !important;
+	height: 40px;
+	/* background: #ff8a00;
+	color: #fff; */
+	z-index: 9999;
+	text-align: center;
+	right: 30px;
+	bottom: 30px;
+}
+
+.go-top > i {
+	font-size: 30px;
+	line-height: 40px;
+}
